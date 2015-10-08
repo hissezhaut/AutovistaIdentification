@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file aims to show you how to use this generated package.
  * In addition, the goal is to show which methods are available and the fist needed parameter(s)
@@ -13,7 +14,9 @@
  * );
  * etc....
  */
+
 require_once __DIR__ . '/vendor/autoload.php';
+
 /**
  * Minimal options
  */
@@ -21,6 +24,7 @@ $options = array(
     \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'http://webservices.eurotaxglass.com/wsdl/identification-v2.wsdl',
     \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \Autovista\Identification\ClassMap::get(),
 );
+
 /**
  * Samples for Get ServiceType
  */
